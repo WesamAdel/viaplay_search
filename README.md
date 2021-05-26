@@ -26,7 +26,7 @@ I assumed that users will either search for a specific genre or a movie title at
 
 ### dis_max query
 
-a dis_max (disjoint max) query works by taking the maximum score of its subqueries. I think this is a suitable case for my assumption that users will search either titles or genres. This way we will try to match name and genere fields separately and top rankeded documents will be strongly matching one of the two fields. 
+A dis_max (disjoint max) query works by taking the maximum score of its subqueries. I think this is a suitable case for my assumption that users will search either titles or genres. This way we will try to match name and genere fields separately and top rankeded documents will be strongly matching one of the two fields. 
 
 Ofcourse based on the user behavior we can find that users inted to mix multiple fields in searching, in this case we would use a boolean should query for example to add the scores of the subqueries. 
 
