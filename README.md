@@ -24,7 +24,7 @@ To address this problem, I used multiple subfields for each field each one with 
 
 I assumed that users will either search for a specific genre or a movie title at a time. I created a *dis_max* query that combines two queries: one for name and name/original and one for genre.
 
-### dis_max
+### dis_max query
 
 a dis_max (disjoint max) query works by taking the maximum score of its subqueries. I think this is a suitable case for my assumption that users will search either titles or genres. This way we will try to match name and genere fields separately and top rankeded documents will be strongly matching one of the two fields. 
 
