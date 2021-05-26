@@ -1,6 +1,6 @@
 # Viaplay Search
 
-Implementation of basic search functionality of viaplay movies.
+Implementation of basic search functionality for viaplay movies.
 
 ## Data
 
